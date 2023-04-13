@@ -14,6 +14,9 @@ function n(dato){
  Math.round(Math.floor( document.getElementById("ops").value = eval(document.getElementById('ops').value))); 
 let ops = (Math.round(Math.floor( document.getElementById("ops").value = eval(document.getElementById('ops').value))))
 document.getElementsByClassName('output')[0].innerHTML += '=' + ops + '<br>';
+if(ops === 0 + ops){
+    ops !=0
+}
 
 }
 

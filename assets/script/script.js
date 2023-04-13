@@ -1,9 +1,8 @@
 function n(dato){ 
     document.getElementById("ops").value += dato;
-    if(dato === 0+0+n){
-        dato = n
-    }
+   
     document.getElementsByClassName('output')[0].innerHTML += dato ;
+  
   
 }
 
@@ -14,11 +13,9 @@ function n(dato){
  Math.round(Math.floor( document.getElementById("ops").value = eval(document.getElementById('ops').value))); 
 let ops = (Math.round(Math.floor( document.getElementById("ops").value = eval(document.getElementById('ops').value))))
 document.getElementsByClassName('output')[0].innerHTML += '=' + ops + '<br>';
-if(ops === 0 + ops){
-    ops !=0
-}
 
-}
+ }
+ 
 
 function del() { 
     document.getElementById("ops").value = ""; 
